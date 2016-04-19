@@ -1,0 +1,17 @@
+name 'spinnaker-cluster'
+maintainer 'Drew Rapenchuk'
+maintainer_email 'drapenchuk@bloomberg.net'
+license 'Apache 2.0'
+description 'Cluster cookbook which installs and configures Spinnaker.'
+long_description 'Cluster cookbook which installs and configures Spinnaker.'
+version '1.0.0'
+
+supports 'centos', '>= 6.4'
+supports 'redhat', '>= 6.4'
+supports 'ubuntu', '>= 12.04'
+
+depends 'java-service'
+depends 'poise', '~> 2.6'
+depends 'poise-archive', '~> 1.0'
+depends 'poise-service', '~> 1.0'
+depends 'poise-python'
